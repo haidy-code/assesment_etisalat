@@ -286,9 +286,25 @@ class _HomePageState extends State<HomePage> {
                     ),
                     decoration: BoxDecoration(
                         color: Colors.black,
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(30),
-                        ))),
+                        border: Border(
+                          top: BorderSide(
+                            color: Colors.lightGreen,
+                            width: 0.5,
+                          ),
+                          bottom: BorderSide(
+                            color: Colors.lightGreen,
+                            width: 0.5,
+                          ),
+                          left: BorderSide(
+                            color: Colors.lightGreen,
+                            width: 0.5,
+                          ),
+                          right: BorderSide(
+                            color: Colors.lightGreen,
+                            width: 0.5,
+                          ),
+                        ),
+                        borderRadius: BorderRadius.circular(30))),
               ),
             ),
             AnimatedPositioned(
@@ -469,6 +485,24 @@ class _HomePageState extends State<HomePage> {
                   width: 110,
                   height: 110,
                   decoration: BoxDecoration(
+                      border: Border(
+                        top: BorderSide(
+                          color: Colors.lightGreen,
+                          width: 0.5,
+                        ),
+                        bottom: BorderSide(
+                          color: Colors.lightGreen,
+                          width: 0.5,
+                        ),
+                        left: BorderSide(
+                          color: Colors.lightGreen,
+                          width: 0.5,
+                        ),
+                        right: BorderSide(
+                          color: Colors.lightGreen,
+                          width: 0.5,
+                        ),
+                      ),
                       color: Colors.black,
                       borderRadius: BorderRadius.all(
                         Radius.circular(30),
@@ -657,6 +691,24 @@ class _HomePageState extends State<HomePage> {
                   width: 110,
                   height: 110,
                   decoration: BoxDecoration(
+                      border: Border(
+                        top: BorderSide(
+                          color: Colors.lightGreen,
+                          width: 0.5,
+                        ),
+                        bottom: BorderSide(
+                          color: Colors.lightGreen,
+                          width: 0.5,
+                        ),
+                        left: BorderSide(
+                          color: Colors.lightGreen,
+                          width: 0.5,
+                        ),
+                        right: BorderSide(
+                          color: Colors.lightGreen,
+                          width: 0.5,
+                        ),
+                      ),
                       color: Colors.black,
                       borderRadius: BorderRadius.all(
                         Radius.circular(30),
@@ -845,6 +897,24 @@ class _HomePageState extends State<HomePage> {
                     width: 110,
                     height: 110,
                     decoration: BoxDecoration(
+                        border: Border(
+                          top: BorderSide(
+                            color: Colors.lightGreen,
+                            width: 0.5,
+                          ),
+                          bottom: BorderSide(
+                            color: Colors.lightGreen,
+                            width: 0.5,
+                          ),
+                          left: BorderSide(
+                            color: Colors.lightGreen,
+                            width: 0.5,
+                          ),
+                          right: BorderSide(
+                            color: Colors.lightGreen,
+                            width: 0.5,
+                          ),
+                        ),
                         color: Colors.black,
                         borderRadius: BorderRadius.all(
                           Radius.circular(30),
